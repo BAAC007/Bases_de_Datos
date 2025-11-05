@@ -1,0 +1,26 @@
+SHOW TABLES;
+
+--Mensaje que debe mostrar
+Empty set (0,00 sec)
+
+--Se crea la tabla
+CREATE TABLE clientes (
+  dni VARCHAR(9),
+  nombre VARCHAR(50),
+  apellidos VARCHAR(255),
+  email VARCHAR(100)
+);
+
+--Mensaje que debe mostrar
+Query OK, 0 rows affected (0,02 sec)
+
+--Para ver las tablas
+SHOW TABLES;
+
+--Lo que debe mostrar
++----------------------+
+| Tables_in_empresadam |
++----------------------+
+| clientes             |
++----------------------+
+1 row in set (0,00 sec)
