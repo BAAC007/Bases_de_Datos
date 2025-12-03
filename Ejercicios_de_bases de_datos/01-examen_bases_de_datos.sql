@@ -1,3 +1,14 @@
+/*Este proyecto muestra paso a paso cómo gestionar una base de datos
+completa. Se inicia creando la base de datos 'portafolio examen' y sus
+tablas 'piezasportafolio' y 'categoriasportafolio', definiendo sus campos y
+relaciones mediante una clave foránea. Luego se insertan, leen, actualizan
+y eliminan datos para comprobar su funcionamiento. También se realizan
+consultas más avanzadas, como un LEFT JOIN y la creación de una vista, y
+se finaliza configurando un usuario con privilegios específicos. Una guía
+práctica y clara para entender la administración básica y avanzada de
+bases de datos.
+*/
+
 --Iniciamos.--
 SHOW DATABASES;
 
