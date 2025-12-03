@@ -1,3 +1,11 @@
+-- Se crea la base de datos 'portafolio examen' y se selecciona.
+-- Se crean las tablas 'piezasportafolio' y 'categoriasportafolio' con sus campos correspondientes.
+-- Se establece una clave foránea para relacionar categoria_id con categoriasportafolio.identificador.
+-- Se insertan y verifican datos en ambas tablas.
+-- Se actualiza y luego se elimina un registro en 'piezasportafolio'.
+-- Se realiza un LEFT JOIN y se crea una vista basada en los datos combinados.
+-- Finalmente, se crea un usuario, se le asignan privilegios y se verifican.
+
 --Iniciamos.--
 sudo mysql -u root -p
 
